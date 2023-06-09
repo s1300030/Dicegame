@@ -21,8 +21,8 @@ int main(void){
   printf("Total value: %d\n",a+b);
 
   if(a+b>7){
-    printf("You won\n");
-  }else printf("You lost\n");
+    printf("%s won\n",name);
+  }else printf("%s lost\n",name);
 
   return 0;
 
